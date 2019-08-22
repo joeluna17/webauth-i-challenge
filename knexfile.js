@@ -4,7 +4,7 @@ module.exports = {
 
   development: {
     client: 'sqlite3',
-    useNullAsNullable: true,
+    useNullAsDefault: true,
     connection: {
       filename: './data/users.db3'
     },
@@ -18,7 +18,6 @@ module.exports = {
     },
     seeds: {
       directory: './data/seeds'
-    }
+    },
   },
-
 };
